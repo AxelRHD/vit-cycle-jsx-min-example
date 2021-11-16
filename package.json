@@ -1,0 +1,21 @@
+{
+  "name": "cycle-jsx",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.16.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-pragma": "^2.8.0",
+    "vite": "^2.6.4",
+    "vite-babel-plugin": "^0.0.2"
+  },
+  "dependencies": {
+    "@cycle/dom": "^23.0.0",
+    "@cycle/run": "^5.5.0",
+    "xstream": "^11.14.0"
+  }
+}
